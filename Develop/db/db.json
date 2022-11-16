@@ -1,6 +1,18 @@
 [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
+  3,
+  {
+    "title": "Example Note",
+    "text": "Example text",
+    "id": 0
+  },
+  {
+    "title": "Second Note",
+    "text": "This is the second note",
+    "id": 1
+  },
+  {
+    "title": "Ares",
+    "text": "Ares (/ˈɛəriːz/; Ancient Greek: Ἄρης, Árēs [árɛːs]) is the Greek god of war and courage. He is one of the Twelve Olympians, and the son of Zeus and Hera. The Greeks were ambivalent towards him. He embodies the physical valor necessary for success in war but can also personify sheer brutality and bloodlust, in contrast to his sister, the armored Athena, whose martial functions include military strategy and generalship. An association with Ares endows places, objects, and other deities with a savage, dangerous, or militarized quality. ",
+    "id": 2
+  }
 ]
