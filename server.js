@@ -5,7 +5,7 @@ const path = require("path");
 
 const app = express();
 
-const notes = require("./db/db.json");
+const notes = require("./Develop/db/db.json");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
