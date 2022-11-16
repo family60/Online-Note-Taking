@@ -57,7 +57,7 @@ app.listen(PORT, () =>{
 });
 //GET default page (index.html)
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/index.html'));
+    res.sendFile(path.join(__dirname, './Develop/public/index.html'));
 });
 
 //GET /api/notes (data)
@@ -66,7 +66,7 @@ app.get("/api/notes", (req, res) =>{
 });
 //GET /notes (page)
 app.get("/notes", (req, res) =>{
-    res.sendFile(path.join(__dirname, "./public/notes.html"));
+    res.sendFile(path.join(__dirname, "./Develop/public/notes.html"));
 });
 //POST /api/notes (data)
 app.post('/api/notes', (req, res) => {
