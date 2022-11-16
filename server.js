@@ -9,7 +9,7 @@ const notes = require("./Develop/db/db.json");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static('public'));
+app.use(express.static('./Develop/public'));
 
 //function for creating new note
 function createNote(body, notesList) {
