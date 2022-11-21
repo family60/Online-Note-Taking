@@ -42,7 +42,7 @@ function deleteNote(id, notesList) {
         if (note.id == id) {
             notesList.splice(i, 1);
             fs.writeFileSync(
-                path.join(__dirname, './db/db.json'),
+                path.join(__dirname, './Develop/db/db.json'),
                 JSON.stringify(notesList, null, 2)
             );
             console.log("Successfully deleted note");
