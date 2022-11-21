@@ -28,7 +28,7 @@ function createNote(body, notesList) {
 
     notesList.push(newNote);
     fs.writeFileSync(
-        path.join(__dirname, './db/db.json'),
+        path.join(__dirname, './Develop/db/db.json'),
         JSON.stringify(notesList, null, 2)
     );
     return newNote;
